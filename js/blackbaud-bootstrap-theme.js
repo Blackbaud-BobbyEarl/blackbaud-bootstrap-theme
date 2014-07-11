@@ -8,6 +8,14 @@
 			location.href = $(this).data('href');
 		});
 
-	})
+    // Add scroll to page positions
+    $(document).on('click', '[data-scroll-to]', function(e) {
+      e.preventDefault();
+      $('html,body').animate({
+          scrollTop: $($(this).data('scroll-to')).offset().top
+      }, 1000);
+    })
+
+	});
 
 }(jQuery);

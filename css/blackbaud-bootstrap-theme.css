@@ -23,6 +23,7 @@ a:focus {
 	background-color: #eee;
 	padding-bottom: 20px;
 	padding-top: 20px;
+  margin-bottom: 20px;
 }
 
 .header h2 {
