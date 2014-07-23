@@ -25,6 +25,12 @@ a:focus {
   color: #999
 }
 
+.vertical-divider {
+	background: #5B5F67;
+	margin-top: 15px;
+	width: 1px;
+}
+
 .header {
 	background-color: #eee;
 	padding-bottom: 20px;
