@@ -11,33 +11,34 @@ a:focus {
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #EFEFEF;
+  color: #4F7124;
+  background: #999;
 }
 
 .navbar.navbar-inverse {
-	background: #50535a;
-	border: 0;
-	border-radius: 0;
-	margin-bottom: 0;
+  background: #50535a;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
 }
 
 .navbar-inverse .navbar-text {
-  color: #999
+  color: #999;
 }
 
 .vertical-divider {
-	background: #5B5F67;
-	margin-top: 15px;
-	width: 1px;
+  background: #5B5F67;
+  margin-top: 15px;
+  width: 1px;
 }
 
 .header {
-	background-color: #eee;
-	padding-bottom: 20px;
-	padding-top: 20px;
+  background-color: #eee;
+  padding-bottom: 20px;
+  padding-top: 20px;
   margin-bottom: 20px;
 }
 
 .header h2 {
-	font-size: 18px;
+  font-size: 18px;
 }
