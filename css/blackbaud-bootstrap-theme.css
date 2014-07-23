@@ -1,11 +1,14 @@
-a {
+a,
+.navbar-inverse .navbar-nav > li > a {
   color: #8cbe4f;
+  text-decoration: none;
 }
 
 a:hover,
-a:focus {
+a:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
   color: #4F7124;
-  text-decoration: none;
 }
 
 .navbar.navbar-inverse {
