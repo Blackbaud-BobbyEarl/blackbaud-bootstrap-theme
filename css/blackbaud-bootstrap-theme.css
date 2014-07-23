@@ -1,5 +1,4 @@
-a,
-.navbar-inverse .navbar-nav > li > a {
+a {
   color: #8cbe4f;
   text-decoration: none;
 }
@@ -7,6 +6,10 @@ a,
 a:hover,
 a:focus {
   color: #4F7124;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #BBB;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
