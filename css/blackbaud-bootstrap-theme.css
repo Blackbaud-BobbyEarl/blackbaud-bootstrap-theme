@@ -5,10 +5,13 @@ a,
 }
 
 a:hover,
-a:focus,
+a:focus {
+  color: #4F7124;
+}
+
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #4F7124;
+  color: #EFEFEF;
 }
 
 .navbar.navbar-inverse {
