@@ -49,7 +49,7 @@ a:focus {
 @media (max-width: 767px) {
  
   .vertical-divider {
-    display: none;
+    display: none !important;
   }
   
 }
