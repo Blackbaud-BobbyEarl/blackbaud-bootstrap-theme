@@ -6,6 +6,7 @@ a {
 a:hover,
 a:focus {
   color: #4F7124;
+  text-decoration: none;
 }
 
 .navbar-inverse .navbar-nav > li > a {
