@@ -7,13 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Blackbaud</title>
 
-  <link rel="icon" href="//www.blackbaud.com/images/FavIcon.ico" type="image/ico">
+  <link rel="icon" href="../img/favicon.ico" type="image/ico">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/blackbaud-bootstrap-theme.css">
+  <link rel="stylesheet" href="../lib/owl-carousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="../lib/owl-carousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../lib/animate/animate.css">
+  <link rel="stylesheet" href="../css/blackbaud-bootstrap-theme.css">
 
 </head>
-<body class="<?php $cla->hasUser() ? 'has-user' : 'no-user'; ?>">
+<body>
 
   <nav class="navbar navbar-inverse" role="navigation">
     <div class="container">
@@ -26,15 +29,17 @@
           <span class="icon-bar"></span>
         </button>
         <a href="http://www.blackbaud.com" target="_blank" class="navbar-brand">
-          <img src="img/logo-white.png" alt="Blackbaud" />
+          <img src="../img/logo-white.png" alt="Blackbaud" />
         </a>
       </div>  <!-- navbar-header -->
 
       <div class="collapse navbar-collapse" id="bb-navbar">
         <ul class="nav navbar-nav navbar-right">
           <li class="navbar-text">Example Text</li>
-          <li class="vertical-divider">&nbsp;</div>
-          <li><a href="#">Sample Link</a></li>
+          <li class="vertical-divider">&nbsp;</li>
+          <li><a href="#"><i class="fa fa-cogs"></i> Sample Link</a></li>
+          <li class="vertical-divider">&nbsp;</li>
+          <li><a href="#"><i class="fa fa-question-circle"></i></a></li>
         </ul>  <!-- .navbar-nav -->
       </div>  <!-- .navbar-collapse -->
 
@@ -42,7 +47,7 @@
   </nav>  <!-- .navbar.navbar-inverse -->
 
   <div class="header">
-      <div class="container">
+    <div class="container">
       <div class="row">
         <div class="col-md-6">
           
@@ -51,13 +56,13 @@
           
         </div>  <!-- .col-md-6 -->
         <div class="col-md-6">
-          <div class="status-wrapper">
+          <div class="status-wrapper text-right">
             Project Status
           </div>  <!-- .status-wrapper -->
         </div>  <!-- .col-md-6 -->
       </div>  <!-- .row -->
 
-      <div class="row">
+      <div class="row hide">
         <div class="col-sm-12">
           <ul class="nav nav-tabs">
             <li class="active">
@@ -76,3 +81,43 @@
       
     </div>  <!-- .container -->
   </div>  <!-- .header -->
+
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>Create Custom Parts</h3>
+          <h3>Intergrate with Blackbaud CRM &#8482;</h3>
+          <h3>Integrate with Blackbaud Secure Payments</h3>
+        </div>  <!-- .col-xs-12 -->
+      </div>  <!-- .row -->
+    </div>  <!-- .container -->
+  </div>  <!-- .content -->
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          Blackbaud
+        </div>  <!-- .col-sm-12 -->
+      </div>  <!-- .row -->
+    </div>  <!-- .container -->
+  </div>  <!-- .footer -->
+
+  <div class="copyright">
+    <div class="container">
+      <div class="col-sm-12">
+        &copy; Blackbaud 2014
+      </div>
+    </div>
+  </div>  <!-- .copyright -->
+
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js"></script>
+  <script src="../lib/owl-carousel/owl.carousel.js"></script>
+  <script src="../js/owl.feature.js"></script>
+  <script src="../js/blackbaud-bootstrap-theme.js"></script>
+  
+</body>
+</html>

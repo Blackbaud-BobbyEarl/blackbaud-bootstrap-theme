@@ -2,19 +2,39 @@
 
 	$(function() {
 
-		// Main purpose was driven by 'A' not being allowed in nav-bar and styled as btn.
-		$(document).on('click', 'button[data-href]', function(e) {
-			e.preventDefault();
-			location.href = $(this).data('href');
-		});
+      // Main purpose was driven by 'A' not being allowed in nav-bar and styled as btn.
+      $(document).on('click', 'button[data-href]', function(e) {
+          e.preventDefault();
+          location.href = $(this).data('href');
+      });
 
-    // Add scroll to page positions
-    $(document).on('click', '[data-scroll-to]', function(e) {
-      e.preventDefault();
-      $('html,body').animate({
-          scrollTop: $($(this).data('scroll-to')).offset().top
-      }, 1000);
-    });
+      // Add scroll to page positions
+      $(document).on('click', '[data-scroll-to]', function(e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $($(this).data('scroll-to')).offset().top
+        }, 1000);
+      });
+      
+      // Initialize Owl Carousel      
+      var carousel = $('.carousel').owlCarousel({
+        featureWaitForAnimation: false,
+        autoplayHoverPause: true,
+        autoplay: true,
+        loop: true,
+        items: 1,
+        animateOut: 'fadeOut'
+      });
+      
+      $('.carousel-prev').click(function(e) {
+        e.preventDefault();
+        carousel.trigger('prev.owl.carousel');
+      });
+      
+      $('.carousel-next').click(function(e) {
+        e.preventDefault();
+        carousel.trigger('next.owl.carousel');
+      });
 
 	});
 
