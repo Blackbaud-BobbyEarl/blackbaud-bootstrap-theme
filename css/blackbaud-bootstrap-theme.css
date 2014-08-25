@@ -29,7 +29,7 @@
 
 /* 
 * ==========================================================================
-* NAVBAR (NAVBAR-INVERSE)
+* NAVBAR
 * ========================================================================== 
 */
   .navbar {
@@ -48,6 +48,27 @@
     color: #000;
   }
 
+  .navbar .navbar-nav > li.active > a {
+    background: #CCC;
+    color: #000;
+  }
+
+  .navbar-toggle .icon-bar {
+    background-color: #34b1ec;
+  }
+
+  .vertical-divider {
+    background: #5B5F67;
+    margin-top: 15px;
+    width: 1px;
+  }
+
+/* 
+* ==========================================================================
+* NAVBAR-INVERSE
+* ========================================================================== 
+*/
+
   .navbar-inverse .navbar-nav > li > a {
     color: #BBB;
   }
@@ -58,9 +79,9 @@
     color: #FFF;
   }
 
-  .navbar-inverse .navbar-nav > li > a.active,
-  .navbar-inverse .navbar-nav > li > a.active:hover,
-  .navbar-inverse .navbar-nav > li > a.active:focus {
+  .navbar-inverse .navbar-nav > li.active,
+  .navbar-inverse .navbar-nav > li.active > a:hover,
+  .navbar-inverse .navbar-nav > li.active > a:focus {
     background: #FFF;
     color: #000;
   }
@@ -74,16 +95,6 @@
 
   .navbar-inverse .navbar-text {
     color: #999;
-  }
-
-  .navbar-toggle .icon-bar {
-    background-color: #34b1ec;
-  }
-
-  .vertical-divider {
-    background: #5B5F67;
-    margin-top: 15px;
-    width: 1px;
   }
 
 /* 
