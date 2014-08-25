@@ -186,8 +186,17 @@
 */
   .footer {
     background: #50535a;
-    color: #949AA6;
+    color: #787D87;
     padding: 30px 0;
+  }
+
+  .footer a {
+    color: #949AA6; 
+  }
+
+  .footer a:hover,
+  .footer a:focus {
+    color: #8cbe4f; 
   }
 
   .copyright {
