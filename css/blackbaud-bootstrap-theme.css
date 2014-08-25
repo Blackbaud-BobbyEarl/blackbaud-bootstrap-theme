@@ -76,6 +76,10 @@
     color: #999;
   }
 
+  .navbar-toggle .icon-bar {
+    background-color: #34b1ec;
+  }
+
   .vertical-divider {
     background: #5B5F67;
     margin-top: 15px;
