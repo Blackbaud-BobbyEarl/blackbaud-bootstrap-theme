@@ -34,6 +34,7 @@
 */
   .navbar {
     background: #FFF;
+    border-radius: 0;
     padding: 10px 0;
     margin: 0;
   }
@@ -89,7 +90,6 @@
   .navbar.navbar-inverse {
     background: #50535a;
     border: 0;
-    border-radius: 0;
     margin: 0;
   }
 
